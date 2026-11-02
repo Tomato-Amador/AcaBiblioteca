@@ -23,3 +23,6 @@ de acuerdo, descubrí por qué no me dejo hacer eso del formulario, cuando comen
 
 # Octubre 31, 2026
 Ayer me estaba poniendo al día finalizando el formulario de libros pero empezó a llover así que tuve que dejarlo a medias, hoy lo terminé, ya solo me faltaría ponerme al dia con la clase anterior y no dormir porque el ACA se entrega la otra semana, no he hecho nada en la documentación y tengo otros 2 acas que realizar. Aunque sea un poco estresante la verdad me estoy divirtiendo mucho al crear la interfaz y enserio me gustaría mejorarla, hoy también ajuste el diseño de la pagina principal para darle un tono cyan 
+
+# Noviembre 1, 2026
+hoy no hubo mucho progreso, intente hacer que los botones de la pagina no se vieran tan pequeños en pantalla completa, traté cambiando el "anchor" pero cuando lo aplique al boton de inicio "desapareció", me tomo tiempo encontrarlo pues resulta que el anchor desactiva el dock y no puedo usar los dos a la vez. 
