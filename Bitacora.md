@@ -31,3 +31,6 @@ hoy no hubo mucho progreso, intente hacer que los botones de la pagina no se vie
 
 # Noviembre 2, 2026
 logré adelantar la mitad de la clase, estoy preocupado porque solo tengo 5 días restantes y aun tengo otro ACA que terminar, llevo aquí de 1 a 6 de la tarde y ya tengo que apagar el computador, voy a terminar el resto mañana (también le dí a los forms de libro y demas un color salmon para hacer contraste con el cyan). 
+
+# Noviembre 3, 2026
+Hoy finalmente me puse al día con la clase anterior, aun me falta hacer las interfaces de usuarios y autores (tambien editoriales) y trabajar en el documento Markdown, también hoy ancle el proyecto a Github, aunque todavía me aparece que la ruta que esta tomando no es la que yo quiero que tome, vere como hacer para que solo siga la ruta a la carpeta de Github. 
