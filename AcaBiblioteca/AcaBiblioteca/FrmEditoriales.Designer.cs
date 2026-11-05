@@ -71,9 +71,9 @@
             // dgvEditoriales
             // 
             dgvEditoriales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEditoriales.Location = new Point(263, 472);
+            dgvEditoriales.Location = new Point(192, 467);
             dgvEditoriales.Name = "dgvEditoriales";
-            dgvEditoriales.Size = new Size(820, 257);
+            dgvEditoriales.Size = new Size(1000, 300);
             dgvEditoriales.TabIndex = 2;
             dgvEditoriales.CellDoubleClick += dgvEditoriales_CellDoubleClick;
             // 
@@ -81,7 +81,7 @@
             // 
             lblNombre.AutoSize = true;
             lblNombre.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblNombre.Location = new Point(513, 98);
+            lblNombre.Location = new Point(518, 125);
             lblNombre.Name = "lblNombre";
             lblNombre.Size = new Size(68, 19);
             lblNombre.TabIndex = 0;
@@ -89,7 +89,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(695, 94);
+            txtNombre.Location = new Point(695, 121);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(177, 23);
             txtNombre.TabIndex = 1;
@@ -113,13 +113,12 @@
             // panel2
             // 
             panel2.BackColor = Color.SeaShell;
-            panel2.Controls.Add(panel3);
             panel2.Controls.Add(txtNombre);
             panel2.Controls.Add(lblNombre);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 120);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1350, 325);
+            panel2.Size = new Size(1350, 231);
             panel2.TabIndex = 1;
             // 
             // panel3
@@ -129,7 +128,7 @@
             panel3.Controls.Add(btnEditar);
             panel3.Controls.Add(btnGuardar);
             panel3.Controls.Add(btnNuevo);
-            panel3.Location = new Point(289, 193);
+            panel3.Location = new Point(321, 372);
             panel3.Name = "panel3";
             panel3.Size = new Size(768, 70);
             panel3.TabIndex = 3;
@@ -204,6 +203,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PeachPuff;
             ClientSize = new Size(1350, 790);
+            Controls.Add(panel3);
             Controls.Add(dgvEditoriales);
             Controls.Add(panel2);
             Controls.Add(panel1);
