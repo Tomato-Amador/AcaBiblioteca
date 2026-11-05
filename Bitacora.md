@@ -34,3 +34,6 @@ logré adelantar la mitad de la clase, estoy preocupado porque solo tengo 5 día
 
 # Noviembre 3, 2026
 Hoy finalmente me puse al día con la clase anterior, aun me falta hacer las interfaces de usuarios y autores (tambien editoriales) y trabajar en el documento Markdown, también hoy ancle el proyecto a Github, aunque todavía me aparece que la ruta que esta tomando no es la que yo quiero que tome, vere como hacer para que solo siga la ruta a la carpeta de Github. 
+
+# Noviembre 4, 2026 
+hoy hice el formulario para las editoriales y autores, tengo que terminar el de usuarios antes de la proxima clase mañana. 
