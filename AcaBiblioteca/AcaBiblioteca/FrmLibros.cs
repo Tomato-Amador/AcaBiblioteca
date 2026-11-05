@@ -549,6 +549,11 @@ namespace AcaBiblioteca
                     MessageBoxIcon.Error);
             }
         }
+
+        private void FrmLibros_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

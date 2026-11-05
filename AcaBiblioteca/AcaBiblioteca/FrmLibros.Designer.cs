@@ -94,7 +94,7 @@
             pnlBusqueda.Dock = DockStyle.Top;
             pnlBusqueda.Location = new Point(0, 60);
             pnlBusqueda.Name = "pnlBusqueda";
-            pnlBusqueda.Size = new Size(1350, 55);
+            pnlBusqueda.Size = new Size(1350, 60);
             pnlBusqueda.TabIndex = 2;
             pnlBusqueda.Paint += pnlBusqueda_Paint;
             // 
@@ -145,7 +145,7 @@
             pnlDatos.Controls.Add(lblTituloLib);
             pnlDatos.Controls.Add(lblSBN);
             pnlDatos.Dock = DockStyle.Top;
-            pnlDatos.Location = new Point(0, 115);
+            pnlDatos.Location = new Point(0, 120);
             pnlDatos.Name = "pnlDatos";
             pnlDatos.Size = new Size(1350, 310);
             pnlDatos.TabIndex = 3;
@@ -395,6 +395,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmLibros";
             WindowState = FormWindowState.Maximized;
+            Load += FrmLibros_Load;
             pnlTitulo.ResumeLayout(false);
             pnlTitulo.PerformLayout();
             pnlBusqueda.ResumeLayout(false);
