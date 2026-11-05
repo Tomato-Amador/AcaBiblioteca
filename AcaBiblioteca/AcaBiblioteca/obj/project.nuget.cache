@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bC6/YX4ZJns=",
+  "dgSpecHash": "pV+kwe+bhUQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Documents\\GitHub\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca\\AcaBiblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
