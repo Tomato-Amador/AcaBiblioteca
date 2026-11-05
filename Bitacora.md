@@ -37,3 +37,6 @@ Hoy finalmente me puse al día con la clase anterior, aun me falta hacer las int
 
 # Noviembre 4, 2026 
 hoy hice el formulario para las editoriales y autores, tengo que terminar el de usuarios antes de la proxima clase mañana. 
+
+# Noviembre 5, 2026
+ya termine la interfaz de usuarios, ahora solo quedaría esperar a la clase para termina los formularios de prestamo y reportes. 
