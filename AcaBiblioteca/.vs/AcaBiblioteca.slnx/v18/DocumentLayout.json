@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\acabiblioteca\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmeditoriales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmeditoriales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|c:\\users\\user\\documents\\juan amador\\aca poo2\\acabiblioteca\\acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\acabiblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmlibros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\acabiblioteca\\frmeditoriales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{76B1E8C3-74E9-A2D7-020A-DA826A7A164A}|AcaBiblioteca\\AcaBiblioteca.csproj|solutionrelative:acabiblioteca\\frmeditoriales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +42,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmUsuarios.cs",
-              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmUsuarios.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmUsuarios.cs",
-              "RelativeToolTip": "AcaBiblioteca\\FrmUsuarios.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAAuAAAAAAAAAA==",
+              "Title": "FrmReportes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmReportes.Designer.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmReportes.Designer.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmReportes.Designer.cs",
+              "RelativeToolTip": "AcaBiblioteca\\FrmReportes.Designer.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAArwJwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T18:55:26.531Z",
+              "WhenOpened": "2026-11-09T21:11:30.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmReportes.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmReportes.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmReportes.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmReportes.cs",
+              "RelativeToolTip": "AcaBiblioteca\\FrmReportes.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T21:11:19.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmReportes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmReportes.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmReportes.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmReportes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AcaBiblioteca\\FrmReportes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T20:59:14.077Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPrestamos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmPrestamos.cs",
+              "RelativeDocumentMoniker": "AcaBiblioteca\\FrmPrestamos.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmPrestamos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AcaBiblioteca\\FrmPrestamos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T20:17:47.565Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FrmUsuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmUsuarios.cs",
               "RelativeDocumentMoniker": "AcaBiblioteca\\FrmUsuarios.cs",
@@ -59,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FrmEditoriales.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmEditoriales.cs",
               "RelativeDocumentMoniker": "AcaBiblioteca\\FrmEditoriales.cs",
@@ -71,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FrmLibros.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmLibros.cs",
               "RelativeDocumentMoniker": "AcaBiblioteca\\FrmLibros.cs",
@@ -83,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FrmPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\Juan Amador\\ACA POO2\\AcaBiblioteca\\AcaBiblioteca\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "AcaBiblioteca\\FrmPrincipal.cs",

@@ -72,6 +72,7 @@
             // btnSalir
             // 
             btnSalir.BackColor = Color.Azure;
+            btnSalir.Cursor = Cursors.Hand;
             btnSalir.Dock = DockStyle.Top;
             btnSalir.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnSalir.ForeColor = Color.Firebrick;
@@ -92,6 +93,7 @@
             // btnReportes
             // 
             btnReportes.BackColor = Color.Azure;
+            btnReportes.Cursor = Cursors.Hand;
             btnReportes.Dock = DockStyle.Top;
             btnReportes.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnReportes.IconChar = FontAwesome.Sharp.IconChar.BookAtlas;
@@ -111,6 +113,7 @@
             // btnPrestamos
             // 
             btnPrestamos.BackColor = Color.Azure;
+            btnPrestamos.Cursor = Cursors.Hand;
             btnPrestamos.Dock = DockStyle.Top;
             btnPrestamos.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnPrestamos.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
@@ -130,6 +133,7 @@
             // btnEditoriales
             // 
             btnEditoriales.BackColor = Color.Azure;
+            btnEditoriales.Cursor = Cursors.Hand;
             btnEditoriales.Dock = DockStyle.Top;
             btnEditoriales.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEditoriales.IconChar = FontAwesome.Sharp.IconChar.BookBookmark;
@@ -149,6 +153,7 @@
             // btnAutores
             // 
             btnAutores.BackColor = Color.Azure;
+            btnAutores.Cursor = Cursors.Hand;
             btnAutores.Dock = DockStyle.Top;
             btnAutores.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAutores.IconChar = FontAwesome.Sharp.IconChar.BookReader;
@@ -168,6 +173,7 @@
             // btnUsuarios
             // 
             btnUsuarios.BackColor = Color.Azure;
+            btnUsuarios.Cursor = Cursors.Hand;
             btnUsuarios.Dock = DockStyle.Top;
             btnUsuarios.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUsuarios.IconChar = FontAwesome.Sharp.IconChar.PeopleGroup;
@@ -187,6 +193,7 @@
             // btnLibros
             // 
             btnLibros.BackColor = Color.Azure;
+            btnLibros.Cursor = Cursors.Hand;
             btnLibros.Dock = DockStyle.Top;
             btnLibros.Font = new Font("Malgun Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLibros.IconChar = FontAwesome.Sharp.IconChar.Book;
@@ -227,7 +234,7 @@
             // 
             // pnlLogo
             // 
-            pnlLogo.BackColor = Color.DarkTurquoise;
+            pnlLogo.BackColor = Color.LightSeaGreen;
             pnlLogo.Controls.Add(picLogo);
             pnlLogo.Controls.Add(lblSubtitulo);
             pnlLogo.Controls.Add(lblTitulo);
