@@ -6,22 +6,22 @@
 
 ## PORTADA
 
-**\[NOMBRE DE LA INSTITUCIÓN\]**
+**\[Corporación Unificada Nacional CUN\]**
 
-**\[PROGRAMA / CURSO\]**
+**\[Ingeniería de Sistemas / 54467 \]**
 
 ### ACA -- Programación Avanzada
 
 ### Sistema de Gestión de Biblioteca
 
 **Presentado por:**\
-\[Nombre completo del estudiante o integrantes\]
+\[Juan Sebastián Amador Orostegui\]
 
 **Docente:**\
-\[Nombre del docente\]
+\[Veronica Castro\]
 
 **Fecha:**\
-\[Ciudad, día, mes y año\]
+\[Santa Marta, 10, Noviembre y 2026\]
 
 ------------------------------------------------------------------------
 
@@ -34,12 +34,12 @@ Avanzada**, aplicando Programación Orientada a Objetos, base de datos
 relacional, arquitectura por capas, operaciones CRUD, validaciones,
 manejo de excepciones y conexión con SQL Server.
 
-**Estudiante(s):** \[Nombres completos\]\
-**Programa:** \[Nombre del programa\]\
-**Grupo:** \[Grupo\]\
-**Docente:** \[Nombre del docente\]\
-**Institución:** \[Nombre de la institución\]\
-**Año:** \[Año\]
+**Estudiante(s):** \[Juan Sebastian Amador Orostegui\]\
+**Programa:** \[Ingeniería de Sistemas\]\
+**Grupo:** \[54467\]\
+**Docente:** \[Veronica Castro\]\
+**Institución:** \[Corporación Unificada Nacional CUN\]\
+**Año:** \[2026\]
 
 ------------------------------------------------------------------------
 
