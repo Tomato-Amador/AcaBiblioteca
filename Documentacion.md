@@ -6,22 +6,22 @@
 
 ## PORTADA
 
-**\[Corporación Unificada Nacional CUN\]**
+**Corporación Unificada Nacional CUN**
 
-**\[Ingeniería de Sistemas / 54467 \]**
+**Ingeniería de Sistemas / 54467**
 
 ### ACA -- Programación Avanzada
 
 ### Sistema de Gestión de Biblioteca
 
 **Presentado por:**\
-\[Juan Sebastián Amador Orostegui\]
+Juan Sebastián Amador Orostegui
 
 **Docente:**\
-\[Veronica Castro\]
+Veronica Castro
 
 **Fecha:**\
-\[Santa Marta, 10, Noviembre y 2026\]
+Santa Marta, 10, Noviembre y 2026
 
 ------------------------------------------------------------------------
 
@@ -70,45 +70,38 @@ manejo de excepciones y conexión con SQL Server.
 
 # 1. INTRODUCCIÓN
 
-En este apartado se debe presentar de manera general el proyecto
-desarrollado.
-
-**Texto guía:**
-
 El presente documento describe el desarrollo del **Sistema de Gestión de
 Biblioteca**, una aplicación de escritorio cuyo propósito es facilitar
-la administración de \[describir brevemente los procesos principales de
-la biblioteca\].
+la administración de Libros, Usuarios, Autores, Editoriales y las diferentes
+"transacciones" como los reportes o préstamos
 
-El sistema fue desarrollado utilizando **\[C# / .NET / Windows Forms /
-SQL Server / otras tecnologías utilizadas\]**, aplicando principios de
+El sistema fue desarrollado utilizando **C# / .NET / Windows Forms /
+SQL Server / Visual Studio Code / Visual Studio**, aplicando principios de
 Programación Orientada a Objetos y una arquitectura por capas.
 
-La aplicación permite gestionar \[libros, autores, categorías, usuarios,
-préstamos, devoluciones y demás funcionalidades realmente
-implementadas\].
+Ademas, se trabajo de forma efectiva la parte grafica que interactua con el usuario,
+la organizacion y las diferentes herramientas que ofrecen los Windows Forms y
+el uso de complementos para ajustar el espacio de trabajo hasta donde nos resulte mas comodo
 
-> **Reemplazar este texto por la introducción propia del proyecto.**
 
-------------------------------------------------------------------------
+-----------------------------------------------------------------------
 
 # 2. OBJETIVOS
 
 ## 2.1 Objetivo general
 
-Desarrollar un Sistema de Gestión de Biblioteca que permita \[indicar el
-propósito principal del sistema\], utilizando Programación Orientada a
-Objetos, una base de datos relacional y una arquitectura por capas.
+Desarrollar un Sistema de Gestión de Biblioteca que facilite la administracion de procesos,
+utilizando Programación Orientada a Objetos, una base de datos relacional
+y una arquitectura por capas.
 
-> **Reemplazar o ajustar según el proyecto desarrollado.**
+
 
 ## 2.2 Objetivos específicos
 
 -   Diseñar e implementar una aplicación de escritorio para la gestión
-    de \[indicar alcance\].
+    de datos y procesos en una Biblioteca.
 -   Aplicar principios de Programación Orientada a Objetos.
 -   Diseñar e implementar una base de datos relacional en SQL Server.
--   Implementar operaciones CRUD para las entidades principales.
 -   Implementar validaciones de datos.
 -   Implementar manejo de excepciones.
 -   Aplicar una arquitectura por capas.
@@ -117,8 +110,6 @@ Objetos, una base de datos relacional y una arquitectura por capas.
 -   Utilizar Git y GitHub para el control de versiones.
 -   Documentar técnica y funcionalmente el proyecto.
 
-> **Eliminar o agregar objetivos según lo que realmente se haya
-> implementado.**
 
 ------------------------------------------------------------------------
 
@@ -130,17 +121,19 @@ Describir la situación que origina la necesidad del sistema.
 
 **Ejemplo:**
 
+Una institución educativa requiere una aplicación de escritorio que facilite la
+administración de los procesos de su biblioteca
+
 La biblioteca actualmente presenta dificultades para administrar de
 manera organizada la información relacionada con los libros, autores,
-usuarios y préstamos. El manejo manual de esta información puede generar
-errores, pérdida de información y dificultades para conocer la
-disponibilidad de los libros.
+usuarios y préstamos. Es necesario encontrar una mejor forma para Agregar,
+Editar y Eliminar la informacion de una manera mas rapida y eficiente que
+por el metodo tradicional de tener todos los datos almacenados en una agenda
 
 Por esta razón, se propone desarrollar una aplicación que permita
 centralizar y administrar la información de la biblioteca de manera
 organizada y eficiente.
 
-> **Adaptar el texto a la problemática definida para el proyecto.**
 
 ## 3.2 Justificación
 
@@ -159,7 +152,9 @@ El sistema permitirá:
 -   Registrar devoluciones.
 -   Consultar disponibilidad.
 -   Consultar historial de préstamos.
--   \[Agregar otras funcionalidades implementadas\].
+-   Consultar el estado de los préstamos
+-   Eliminar prestamos del historial 
+-   Generar reportes
 
 ### Fuera del alcance
 
@@ -176,22 +171,29 @@ proyecto.
 ## 4.1 Descripción general
 
 El Sistema de Gestión de Biblioteca permitirá administrar la información
-relacionada con \[entidades principales\] y controlar los procesos de
-\[préstamos, devoluciones, consultas, etc.\].
+relacionada con Libros, Autores, Editoriales y controlar los procesos de 
+préstamos, devoluciones y consultas.
 
 ## 4.2 Actores del sistema
 
   -----------------------------------------------------------------------
   Actor                               Descripción
   ----------------------------------- -----------------------------------
-  Bibliotecario / Administrador       \[Describir las funciones que
-                                      realiza en el sistema.\]
+  Bibliotecario / Administrador       En este caso es la entidad mas importante,
+                                      Es el encargado de manejar el programa y 
+                                      para quien la base de datos fue hecha en 
+                                      un principio, se dedica a ingresar, editar
+                                      o eliminar la informacion de la base de datos
+                                      a traves del programa 
+                                      
 
-  \[Otro actor\]                      \[Descripción.\]
+  Usuario / cliente                   Es una de las partes que interactua 
+                                      indirectamente con el sistema, el cliente
+                                      pide y regresa los libros y es parte de
+                                      los procesos de prestamos. 
   -----------------------------------------------------------------------
 
-> **Agregar únicamente los actores que realmente interactúan con el
-> sistema.**
+
 
 ## 4.3 Requerimientos funcionales
 
