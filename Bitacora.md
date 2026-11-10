@@ -43,3 +43,6 @@ Ya termine la interfaz de usuarios, ahora solo quedaría esperar a la clase para
 
 # Noviembre 9, 2026 
 El 5 de noviembre no hubo clase, pero la buena noticia es que la profesora extendió el plazo para entregar el ACA, así que decidí tomar viernes y sabado para terminar otro ACA que tenía pendiente. Hoy revisé el repositorio Github y con eso terminé el form de Prestamos y Reportes, con eso supongo ya estaría casi finalizado el ACA, solo falta el documento markdown. 
+
+# Noviembre 10, 2026 
+"Terminé" el documento Markdown, en realidad me quedó a medias y es completamente mi culpa pero tenía que presentar algo, subí el archivo con el link al repositorio antes de terminar la documentación por si acaso. Tambien la parte de la entidad-relacion no la completé porque no encontré la imagen en el repositorio. 
