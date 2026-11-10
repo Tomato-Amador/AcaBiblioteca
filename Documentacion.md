@@ -391,14 +391,14 @@ a estar disponible según corresponda.
 
 ## 6.1 Descripción
 
-Describir las principales clases utilizadas en el sistema y su
-responsabilidad.
+En este sistema vamos a estar utilizando las clases Autor (creador o escritor del libro),
+Usuario ( es quien pide prestado el libro), Editorial ( es quien publica el libro), 
+Prestamo (lo que realiza el usuario) y libro (es lo que escribe el autor, publica la editorial y pide el usuario).
 
 ## 6.2 Diagrama de clases
 
-Insertar aquí el diagrama de clases.
 
-`![Diagrama de clases](ruta/al/diagrama-clases.png)`
+![Diagrama de clases](./Imagenes/Diagrama%20De%20Clases%20-%20Biblioteca.png)
 
 ## 6.3 Principales clases
 
@@ -406,12 +406,10 @@ Insertar aquí el diagrama de clases.
   ----------------- --------------------------------------------------------
   Libro             Representar y gestionar la información de los libros.
   Autor             Representar y gestionar los autores.
-  Categoria         Representar las categorías de los libros.
+  Editorial         Representar y gestionar las editoriales de los libros.
   Usuario           Representar los usuarios de la biblioteca.
   Prestamo          Gestionar la información de los préstamos.
-  DetallePrestamo   Relacionar los libros incluidos en un préstamo.
-  Devolucion        Gestionar las devoluciones y calcular retrasos/multas.
-  \[Otra clase\]    \[Responsabilidad.\]
+  
 
 ## 6.4 Aplicación de POO
 
@@ -569,9 +567,7 @@ Describir las relaciones entre las entidades.
   diasRetraso       INT             \-      No     Número de días de retraso.
   multa             DECIMAL(10,2)   \-      Sí     Valor de la multa, si aplica.
 
-> **IMPORTANTE:** El diccionario debe coincidir exactamente con el
-> script SQL final. Si los nombres, tipos o campos de la base de datos
-> son diferentes, actualizar esta sección.
+
 
 ------------------------------------------------------------------------
 
@@ -593,9 +589,8 @@ La arquitectura está compuesta por:
 
 ## 9.2 Diagrama de arquitectura
 
-Insertar aquí el diagrama de arquitectura.
 
-`![Arquitectura del sistema](ruta/al/diagrama-arquitectura.png)`
+![Arquitectura del sistema](./Imagenes/Arquitectura%20Del%20Sistema%20-%20Biblioteca%20.png)
 
 ## 9.3 Capa de Presentación
 
@@ -608,10 +603,10 @@ Es la capa mediante la cual el usuario interactúa con el sistema.
 -   \[FrmPrincipal\]
 -   \[FrmLibros\]
 -   \[FrmAutores\]
--   \[FrmCategorias\]
+-   \[FrmEditoriales\]
 -   \[FrmUsuarios\]
 -   \[FrmPrestamos\]
--   \[FrmDevoluciones\]
+-   \[FrmReportes\]
 
 **Tecnología utilizada:**
 
@@ -630,18 +625,15 @@ de negocio y coordina las operaciones.
 
 -   \[LibroController\]
 -   \[AutorController\]
--   \[CategoriaController\]
+-   \[EditorialController\]
 -   \[UsuarioController\]
 -   \[PrestamoController\]
--   \[DevolucionController\]
 
 **Ejemplos de reglas:**
 
 -   Validar disponibilidad.
 -   Validar existencia del usuario.
 -   Validar existencia del libro.
--   Calcular días de retraso.
--   Calcular multa.
 -   Actualizar estados.
 
 ## 9.5 Capa de Acceso a Datos
@@ -655,10 +647,9 @@ Gestiona la comunicación entre la aplicación y SQL Server.
 -   \[Conexion\]
 -   \[LibroDAO\]
 -   \[AutorDAO\]
--   \[CategoriaDAO\]
+-   \[EditorialDAO\]
 -   \[UsuarioDAO\]
 -   \[PrestamoDAO\]
--   \[DevolucionDAO\]
 
 **Tecnologías utilizadas:**
 
@@ -670,21 +661,20 @@ Gestiona la comunicación entre la aplicación y SQL Server.
 
 La información del sistema se almacena en:
 
-**Base de datos:** `[NombreBaseDatos]`
+**Base de datos:** `AcaBiblioteca`
 
 **Tablas principales:**
 
--   Autor
--   Categoria
--   Libro
--   Usuario
--   Prestamo
--   DetallePrestamo
--   Devolucion
+-   Autores
+-   Editoriales
+-   Libros
+-   Usuarios
+-   Prestamos
+
 
 ## 9.7 Flujo de información
 
-``` text
+``` 
 Usuario
    ↓
 Presentación
@@ -705,60 +695,47 @@ llegar nuevamente a la interfaz.
 
 ## 10.1 Módulo de libros
 
-**Objetivo:** \[Descripción.\]
+**Objetivo:** Almacenar toda la informacion relevante con respecto a libros 
 
 **Funcionalidades:** - Registrar. - Consultar. - Actualizar. -
 Eliminar. - Buscar.
 
-**Validaciones:** - \[Validación.\] - \[Validación.\]
 
 ## 10.2 Módulo de autores
 
-**Objetivo:** \[Descripción.\]
+**Objetivo:** Almacenar toda la informacion relevante con respecto a autores
 
 **Funcionalidades:** - Registrar. - Consultar. - Actualizar. - Eliminar.
 
-## 10.3 Módulo de categorías
+## 10.3 Módulo de editoriales
 
-**Objetivo:** \[Descripción.\]
+**Objetivo:** Almacenar toda la informacion relevante con respecto a editoriales
 
 **Funcionalidades:** - Registrar. - Consultar. - Actualizar. - Eliminar.
 
 ## 10.4 Módulo de usuarios
 
-**Objetivo:** \[Descripción.\]
+**Objetivo:** Almacenar toda la informacion relevante con respecto a usuarios
 
 **Funcionalidades:** - Registrar. - Consultar. - Actualizar. - Eliminar.
 
 ## 10.5 Módulo de préstamos
 
-**Objetivo:** \[Descripción.\]
+**Objetivo:** Almacenar toda la informacion relevante con respecto a los préstamos realizados 
 
 **Funcionalidades:** - Registrar préstamo. - Consultar préstamos
 activos. - Consultar historial. - Actualizar disponibilidad.
 
-## 10.6 Módulo de devoluciones
 
-**Objetivo:** \[Descripción.\]
-
-**Funcionalidades:** - Registrar devolución. - Calcular días de
-retraso. - Calcular multa cuando aplique. - Actualizar disponibilidad.
-
-## 10.7 Módulo de consultas
+## 10.7 Módulo de reportes
 
 **Consultas implementadas:**
 
--   Total de libros registrados.
--   Total de usuarios registrados.
 -   Libros disponibles.
 -   Libros prestados.
 -   Usuarios con préstamos activos.
 -   Historial de préstamos.
--   Libros más prestados.
--   \[Otras consultas implementadas.\]
 
-> **Eliminar las consultas que no estén implementadas y agregar las que
-> sí existan.**
 
 ------------------------------------------------------------------------
 
@@ -769,54 +746,53 @@ funcionalidades.
 
 ## 11.1 Menú principal
 
-![Menú principal](ruta/captura-menu.png)
+![Menú principal](./Imagenes/Menu%20Principal.png)
 
-**Descripción:** \[Explicar brevemente la pantalla.\]
+**Descripción:** Imagen tomada desde el menu principal.
 
 ## 11.2 Gestión de libros
 
-![Gestión de libros](ruta/captura-libros.png)
+![Gestión de libros](./Imagenes/Gestion%20de%20Libros.png)
 
-**Descripción:** \[Explicar la funcionalidad.\]
+**Descripción:** Imagen tomada desde el modulo de libros donde se ve 
+como se agrega un nuevo libro a la base de datos. 
 
 ## 11.3 Gestión de autores
 
-![Gestión de autores](ruta/captura-autores.png)
+![Gestión de autores](./Imagenes/Gestion%20de%20Autores.png)
 
-**Descripción:** \[Explicar la funcionalidad.\]
+**Descripción:** Imagen tomada desde el modulo de autores donde se ve
+como se actualiza la informacion de un autor ya existente.
 
-## 11.4 Gestión de categorías
+## 11.4 Gestión de editoriales
 
-![Gestión de categorías](ruta/captura-categorias.png)
+![Gestión de editoriales](./Imagenes/Gestion%20de%20Editoriales.png)
 
-**Descripción:** \[Explicar la funcionalidad.\]
+**Descripción:** Imagen tomada desde el modulo de editoriales donde se ve
+como se agrega una nueva editorial. 
 
 ## 11.5 Gestión de usuarios
 
-![Gestión de usuarios](ruta/captura-usuarios.png)
+![Gestión de usuarios](./Imagenes/Gestion%20de%20Usuarios.png)
 
-**Descripción:** \[Explicar la funcionalidad.\]
+**Descripción:** Imagen tomada desde el modulo de usuarios donde se ve
+como se elimina a un usuario previo.
 
 ## 11.6 Registro de préstamos
 
-![Registro de préstamos](ruta/captura-prestamos.png)
+![Registro de préstamos](./Imagenes/Gestion%20de%20Prestamos.png)
 
-**Descripción:** \[Explicar la funcionalidad.\]
+**Descripción:** Imagen tomada desde el modulo de prestamos donde se ve
+un prestamos activo 
 
-## 11.7 Registro de devoluciones
+## 11.7 Registro de reportes
 
-![Registro de devoluciones](ruta/captura-devoluciones.png)
+![Registro de reportes](./Imagenes/Gestion%20de%20Reportes.png)
 
-**Descripción:** \[Explicar la funcionalidad.\]
+**Descripción:** Imagen tomada desde el modulo de reportes donde se ve
+la informacion que refleja la interfaz 
 
-## 11.8 Consultas
 
-![Consultas](ruta/captura-consultas.png)
-
-**Descripción:** \[Explicar la funcionalidad.\]
-
-> **Recomendación:** cada captura debe tener una breve explicación y
-> mostrar una funcionalidad real del sistema.
 
 ------------------------------------------------------------------------
 
@@ -832,36 +808,32 @@ Describir cómo se verificó el funcionamiento del sistema.
   ID          Funcionalidad   Entrada / Acción Resultado        Resultado       Estado
                                                esperado         obtenido        
   ----------- --------------- ---------------- ---------------- --------------- ------------
-  CP01        Registrar libro Datos válidos    Libro registrado \[Resultado\]   Aprobado
-                                               correctamente                    
+  CP01        Registrar libro Datos válidos    Libro registrado Libro registrado   Aprobado
+                                               correctamente    correctamente              
 
-  CP02        Registrar libro Código repetido  Mostrar mensaje  \[Resultado\]   Aprobado
-                                               de validación                    
+  CP02        Registrar libro Código repetido  Mostrar mensaje  Mostrar mensaje    Aprobado
+                                               de validación    de validacion                
 
-  CP03        Registrar       Datos válidos    Usuario          \[Resultado\]   Aprobado
-              usuario                          registrado                       
+  CP03        Registrar       Datos válidos    Usuario          Usuario            Aprobado
+              usuario                          registrado       registrado               
 
-  CP04        Registrar       Libro disponible Préstamo         \[Resultado\]   Aprobado
-              préstamo                         registrado y                     
-                                               disponibilidad                   
-                                               actualizada                      
+  CP04        Registrar       Libro disponible Préstamo         Préstamo           Aprobado
+              préstamo                         registrado y     registrado y                
+                                               disponibilidad   disponibilidad                
+                                               actualizada      actualizada                
 
-  CP05        Registrar       Libro sin        No permitir el   \[Resultado\]   Aprobado
-              préstamo        disponibilidad   préstamo                         
+  CP05        Registrar       Libro sin        No permitir el   No permitir el     Aprobado
+              préstamo        disponibilidad   préstamo         préstamo                
 
-  CP06        Registrar       Préstamo activo  Registrar        \[Resultado\]   Aprobado
-              devolución                       devolución y                     
-                                               actualizar                       
-                                               disponibilidad                   
+  CP06        Registrar       Préstamo activo  Registrar        Registrar          Aprobado
+              devolución                       devolución y     devolución y                
+                                               actualizar       actualizar                
+                                               disponibilidad   disponibilidad                
 
-  CP07        Devolución con  Fecha posterior  Calcular retraso \[Resultado\]   Aprobado
-              retraso         a la estimada    y multa                          
+  CP07        Reporte         Consultar libros Mostrar libros   Mostrar libros     Aprobado
+                              disponibles      disponibles      disponibles                
 
-  CP08        Consulta        Consultar libros Mostrar libros   \[Resultado\]   Aprobado
-                              disponibles      disponibles                      
-
-  CP09        \[Otra prueba\] \[Entrada\]      \[Resultado      \[Resultado\]   \[Estado\]
-                                               esperado\]                       
+                                               
   ------------------------------------------------------------------------------------------
 
 ## 12.3 Evidencias de pruebas
@@ -870,16 +842,45 @@ Insertar capturas que demuestren los resultados de las pruebas.
 
 ### Prueba CP01
 
-![Evidencia CP01](ruta/prueba01.png)
+![Evidencia CP01](./Imagenes/Gestion%20de%20Libros.png)
 
-**Resultado:** \[Descripción.\]
+**Resultado:** Libro registrado exitosamente 
 
 ### Prueba CP02
 
-![Evidencia CP02](ruta/prueba02.png)
+![Evidencia CP02](./Imagenes/Libro%20invalido.png)
 
-**Resultado:** \[Descripción.\]
+**Resultado:** Libro no registrado exitosamente
 
+### Prueba CP03
+
+![Evidencia CP03](./Imagenes/Gestion%20de%20Usuarios.png)
+
+**Resultado:** Usuario registrado exitosamente
+
+### Prueba CP04
+
+![Evidencia CP04](./Imagenes/Prestamos%20registrado.png)
+
+**Resultado:** Prestamo registrado exitosamente
+
+### Prueba CP05
+
+![Evidencia CP05](./Imagenes/Sin%20existancias.png)
+
+**Resultado:** Prestamo no registrado exitosamente
+
+### Prueba CP06
+
+![Evidencia CP06](./Imagenes/Devolucion.png)
+
+**Resultado:** Devolucion registrada exitosamente
+
+### Prueba CP07
+
+![Evidencia CP07](./Imagenes/Inventario.png)
+
+**Resultado:** Inventario consultado exitosamente
 ------------------------------------------------------------------------
 
 # 13. CONCLUSIONES
