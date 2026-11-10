@@ -907,11 +907,11 @@ arquitectura por capas.\]
 
 # 14. RECOMENDACIONES
 
--   \[Recomendación relacionada con futuras mejoras.\]
--   \[Recomendación relacionada con seguridad.\]
--   \[Recomendación relacionada con mantenimiento.\]
--   \[Recomendación relacionada con nuevas funcionalidades.\]
--   \[Otra recomendación.\]
+-    Mejorar mis habilidades de diseño web
+-    Planificar mejor mi tiempo con respecto a los trabajos que tengo que hacer 
+-    Mejorar la estructura de mi trabajo
+-    Agregar un README
+
 
 ------------------------------------------------------------------------
 
@@ -943,7 +943,7 @@ Learn.
 
 ## Anexo A. Repositorio GitHub
 
-**Repositorio:** \[Enlace al repositorio\]
+**Repositorio:** https://github.com/Tomato-Amador/AcaBiblioteca
 
 ## Anexo B. Script de base de datos
 
@@ -967,51 +967,32 @@ Insertar capturas que evidencien:
 
 # LISTA DE VERIFICACIÓN ANTES DE ENTREGAR
 
--   [ ] Portada.
--   [ ] Contraportada.
--   [ ] Introducción.
--   [ ] Objetivos.
--   [ ] Tabla de contenido.
+-   [ x] Portada.
+-   [x ] Contraportada.
+-   [ x] Introducción.
+-   [ x] Objetivos.
+-   [x ] Tabla de contenido.
 -   [ ] Numeración de páginas.
--   [ ] Planteamiento del problema.
--   [ ] Análisis de requerimientos.
--   [ ] Casos de uso.
--   [ ] Diagrama de casos de uso.
--   [ ] Diagrama de clases.
+-   [ x] Planteamiento del problema.
+-   [x ] Análisis de requerimientos.
+-   [ x] Casos de uso.
+-   [x ] Diagrama de casos de uso.
+-   [x ] Diagrama de clases.
 -   [ ] Modelo entidad-relación.
--   [ ] Diccionario de datos.
--   [ ] Arquitectura del sistema.
--   [ ] Explicación de cada módulo.
--   [ ] Capturas de pantalla.
--   [ ] Pruebas de funcionamiento.
+-   [ x] Diccionario de datos.
+-   [ x] Arquitectura del sistema.
+-   [x ] Explicación de cada módulo.
+-   [ x] Capturas de pantalla.
+-   [ x] Pruebas de funcionamiento.
 -   [ ] Conclusiones.
--   [ ] Recomendaciones.
+-   [ x] Recomendaciones.
 -   [ ] Referencias bibliográficas en formato APA.
 -   [ ] Código fuente completo.
 -   [ ] Script SQL.
 -   [ ] Datos de prueba.
--   [ ] Repositorio GitHub.
+-   [x ] Repositorio GitHub.
 -   [ ] README.md.
 -   [ ] Evidencia de commits.
 
 ------------------------------------------------------------------------
 
-## NOTA PARA EL ESTUDIANTE
-
-Este documento es una **plantilla de apoyo**. Antes de entregar, se
-deben reemplazar todos los textos entre `[corchetes]`, eliminar las
-instrucciones y adaptar cada sección a las funcionalidades que realmente
-fueron desarrolladas.
-
-La documentación debe ser coherente con:
-
-1.  El código fuente.
-2.  La base de datos.
-3.  El modelo entidad-relación.
-4.  El diagrama de clases.
-5.  Los casos de uso.
-6.  La arquitectura implementada.
-7.  Las capturas y pruebas realizadas.
-
-**No se deben documentar funcionalidades que no hayan sido
-implementadas.**
