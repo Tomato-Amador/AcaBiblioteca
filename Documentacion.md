@@ -117,9 +117,6 @@ y una arquitectura por capas.
 
 ## 3.1 Descripción del problema
 
-Describir la situación que origina la necesidad del sistema.
-
-**Ejemplo:**
 
 Una institución educativa requiere una aplicación de escritorio que facilite la
 administración de los procesos de su biblioteca
@@ -137,8 +134,10 @@ organizada y eficiente.
 
 ## 3.2 Justificación
 
-Explicar por qué es importante desarrollar el sistema y qué beneficios
-proporciona.
+Es bastante importante desarrollar el sistema ya que permitirá 
+gestionar la informacion de manera muchísimo mas eficiente que 
+el sistema actual, ademas contará con un apartado visual fácil de 
+entender y manejar que acelerá los procesos y reducirá cargas.
 
 ## 3.3 Alcance
 
@@ -146,7 +145,6 @@ El sistema permitirá:
 
 -   Gestionar libros.
 -   Gestionar autores.
--   Gestionar categorías.
 -   Gestionar usuarios.
 -   Registrar préstamos.
 -   Registrar devoluciones.
@@ -161,8 +159,8 @@ El sistema permitirá:
 Indicar las funcionalidades que **no** forman parte de esta versión del
 proyecto.
 
--   \[Funcionalidad no incluida\].
--   \[Funcionalidad no incluida\].
+-   Aplicar multas de acuerdo al tiempo de retraso.
+-   Gestionar categorías 
 
 ------------------------------------------------------------------------
 
@@ -179,15 +177,14 @@ préstamos, devoluciones y consultas.
   -----------------------------------------------------------------------
   Actor                               Descripción
   ----------------------------------- -----------------------------------
-  Bibliotecario / Administrador       En este caso es la entidad mas importante,
+    Bibliotecario / Administrador     En este caso es la entidad mas importante,
                                       Es el encargado de manejar el programa y 
                                       para quien la base de datos fue hecha en 
                                       un principio, se dedica a ingresar, editar
                                       o eliminar la informacion de la base de datos
-                                      a traves del programa 
-                                      
-
-  Usuario / cliente                   Es una de las partes que interactua 
+                                      a traves del programa.
+ 
+    Usuario / Cliente                 Es una de las partes que interactua 
                                       indirectamente con el sistema, el cliente
                                       pide y regresa los libros y es parte de
                                       los procesos de prestamos. 
@@ -200,42 +197,33 @@ préstamos, devoluciones y consultas.
   -----------------------------------------------------------------------
   Código                  Requerimiento           Descripción
   ----------------------- ----------------------- -----------------------
-  RF01                    Gestionar libros        Registrar, consultar,
+    RF01                  Gestionar libros        Registrar, consultar,
                                                   actualizar, eliminar y
                                                   buscar libros.
 
-  RF02                    Gestionar autores       Registrar, consultar,
+    RF02                  Gestionar autores       Registrar, consultar,
                                                   actualizar y eliminar
                                                   autores.
 
-  RF03                    Gestionar categorías    Registrar, consultar,
-                                                  actualizar y eliminar
-                                                  categorías.
-
-  RF04                    Gestionar usuarios      Registrar, consultar,
+    RF03                  Gestionar usuarios      Registrar, consultar,
                                                   actualizar y eliminar
                                                   usuarios.
 
-  RF05                    Registrar préstamos     Registrar préstamos y
-                                                  actualizar la
-                                                  disponibilidad de los
-                                                  libros.
-
-  RF06                    Registrar devoluciones  Registrar devoluciones,
-                                                  calcular retrasos y
-                                                  multa cuando aplique.
-
-  RF07                    Realizar consultas      Consultar libros
+    RF04                  Registrar préstamos     Registrar, consular,
+                                                  actualizar y eliminar
+                                                  los préstamos
+                                                  
+    RF05                  Realizar consultas      Consultar libros
                                                   disponibles, libros
                                                   prestados, historial y
                                                   usuarios con préstamos
                                                   activos.
-
-  RF08                    \[Otro requerimiento\]  \[Descripción.\]
+                                                  
+    RF06                  Gestionar editoriales   Registar, consultar,
+                                                  actualizar y eliminar 
+                                                  editoriales
   -----------------------------------------------------------------------
 
-> **Importante:** modificar la tabla para que coincida exactamente con
-> las funcionalidades implementadas.
 
 ## 4.4 Requerimientos no funcionales
 
@@ -271,7 +259,6 @@ préstamos, devoluciones y consultas.
                           parametrizadas          de datos deben utilizar
                                                   parámetros.
 
-  RNF08                   \[Otro requerimiento\]  \[Descripción.\]
   -----------------------------------------------------------------------
 
 ## 4.5 Reglas de negocio
@@ -306,13 +293,6 @@ actualizarse.
 Al registrar una devolución, la disponibilidad deberá actualizarse
 nuevamente.
 
-### RN08 -- Multa
-
-La multa se calculará únicamente cuando exista retraso en la devolución.
-
-### RN09 -- \[Otra regla\]
-
-\[Descripción.\]
 
 ------------------------------------------------------------------------
 
@@ -320,16 +300,23 @@ La multa se calculará únicamente cuando exista retraso en la devolución.
 
 ## 5.1 Descripción
 
-Describir cómo interactúan los actores con las funcionalidades
-principales del sistema.
+En el caso de este sistema, los bibliotecarios o administradores
+serán los encargados de gestionar la informacion referente a libros,
+autores, editoriales, usuarios, prestamos y reportes.
+
+Si llega un nuevo libro, los bibliotecarios pueden registrarlo, tambien
+son capaces de eliminar el registro de un libro en caso de que ya no haya
+o modificarlos en caso de que haya habido un error; lo mismo aplica para
+los autores, editoriales y usuarios. 
+
+Los usuarios son los que piden los libros, su informacion aparece 
+registrada en la base de datos, y cuando hacen un préstamos, ese 
+proceso queda registrado y se le asigna un estado, los estados depende
+de si el prestamos esta activo, ya fue completado o se le venció el plazo.
 
 ## 5.2 Diagrama de casos de uso
 
-Insertar aquí el diagrama de casos de uso.
-
-**Archivo sugerido:**
-
-`![Diagrama de casos de uso](ruta/al/diagrama-casos-uso.png)`
+![Diagrama de casos de uso](./Imagenes/Diagrama%20De%20Casos%20De%20Uso%20-%20Biblioteca%20.png)
 
 ## 5.3 Descripción de casos de uso
 
@@ -340,18 +327,20 @@ Insertar aquí el diagrama de casos de uso.
 **Descripción:** Permite registrar, consultar, actualizar, eliminar y
 buscar libros.
 
-**Precondiciones:** - El usuario debe tener acceso al sistema. - \[Otra
-precondición.\]
+**Precondiciones:** - El usuario debe tener acceso al sistema. - Debe estar 
+registrado en el sistema
 
 **Flujo principal:** 1. El actor ingresa al módulo de libros. 2. El
 sistema muestra los libros registrados. 3. El actor selecciona la
 operación que desea realizar. 4. El sistema procesa la solicitud. 5. El
 sistema muestra el resultado.
 
-**Flujos alternativos:** - \[Describir errores o situaciones
-alternativas.\]
+**Flujos alternativos:** - El actor entra accidentalmente al modulo incorrecto. -
+El Actor selecciona la operacion equivocada. - El sistema no puede procesar las 
+solicitudes. - El sistema no responde. - El sistema es intervenido por un usuario no 
+autorizado.
 
-**Postcondiciones:** - \[Indicar el resultado de la operación.\]
+**Postcondiciones:** - La Informacion se guarda, elimina o modifica exitosamente.
 
 ------------------------------------------------------------------------
 
@@ -370,7 +359,7 @@ Verificar disponibilidad. 4. Registrar préstamo. 5. Actualizar
 disponibilidad. 6. Mostrar confirmación.
 
 **Flujos alternativos:** - Usuario inexistente. - Libro inexistente. -
-Libro sin disponibilidad. - \[Otro caso.\]
+Libro sin disponibilidad. - Autor Inexistente. - Editorial Inexistente.
 
 **Postcondiciones:** - El préstamo queda registrado. - La disponibilidad
 del libro queda actualizada.
@@ -390,7 +379,8 @@ devolución. 3. Calcular días de retraso. 4. Calcular multa cuando
 corresponda. 5. Actualizar disponibilidad. 6. Actualizar el estado del
 préstamo. 7. Mostrar confirmación.
 
-**Flujos alternativos:** - \[Describir situaciones de error.\]
+**Flujos alternativos:** - Se eligió la devolucion incorrecta. - No aparece
+el libro. - La disponibilidad no se actualiza.
 
 **Postcondiciones:** - La devolución queda registrada. - El libro vuelve
 a estar disponible según corresponda.
